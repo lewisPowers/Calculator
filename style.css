@@ -1,0 +1,26 @@
+li:empty:after {
+    content: "0";
+}
+
+h1, table {
+    text-align: center;
+}
+
+li {
+    text-align: right;
+    padding-right: 5px;
+}
+
+#table-div {
+    width: 135px;
+    margin: auto;
+}
+
+.operator, #clear, #plus-minus, #percent {
+    background-color: rgba(0, 102, 255, 0.267);
+}
+
+.operator {
+    width: 100%;
+    
+}

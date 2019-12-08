@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Calculator</title>
+            <link href="style.css" rel="stylesheet">
+            
+        </head>
+    <body>
+        <div>
+            <header>
+                <h1>
+                    Calculator
+                </h1>
+            </header>
+        </div>
+        <div id="table-div">
+            <table id="table">
+                <thead>
+                    
+                    <li id="display-input" class="display" style="list-style-type:none"></li>
+                    <tr id="top">
+                        <td><button id="clear">AC</button></td>
+                        <td><button id="plus-minus">+/-</button></td>
+                        <td><button id="percent">%</button></td>
+                        <td><button data-action="divide" class="operator">/</button></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><button class="numbers" id="seven">7</button></td>
+                        <td><button class="numbers" id="eight">8</button></td>
+                        <td><button class="numbers" id="nine">9</button></td>
+                        <td><button data-action="multiply" class="operator">*</button></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><button class="numbers" id="four">4</button></td>
+                        <td><button class="numbers" id="five">5</button></td>
+                        <td><button class="numbers" id="six">6</button></td>
+                        <td><button data-action="add" class="operator">+</button></td>
+                    </tr>
+                    <tr>
+                        <td> <button class="numbers" id="one">1</button> </td>
+                        <td><button class="numbers" id="two">2</button></td>
+                        <td><button class="numbers" id="three">3</button></td>
+                        <td><button data-action="subtract" class="operator">-</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button id="zero" style="width: 70px;">0</button></td>
+                        <td><button data-action="decimal" id="decimal"> . </button></td>
+                        <td><button data-action="calculate" class="operator" id="equals" >=</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <!-- <p>Built by me: LP</p> -->
+                </tfoot>
+            </table>
+        </div>
+
+    </body>
+
+    <script src="app.js"></script>
+    <!-- <script src="newApp.js"></script> -->
+</html>
+
